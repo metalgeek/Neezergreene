@@ -1,0 +1,42 @@
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+<!-- <link rel="stylesheet" href="/js/main.js"> -->
+<style>
+
+.content-section {
+  display: none;
+}
+</style>
+
+<div class="btn-group btn-group-lg">
+  <button type="button" data-section="section1" class="btn btn-primary segmentedButton ">Section1</button>
+  <button type="button" data-section="section2" class="btn btn-primary segmentedButton">Section2</button>
+  <button type="button" data-section="section3" class="btn btn-primary segmentedButton">Section3</button>
+</div>
+
+<div class="content-section" id="section1">
+  <h1> Section 1 </h1>
+  <p>Section 1 Content goes here</p>
+</div>
+<div class="content-section" id="section2">
+  <h1> Section 2 </h1>
+  <p>Section 2 Content goes here</p>
+</div>
+<div class="content-section" id="section3">
+  <h1> Section 3 </h1>
+  <p>Section 3 Content goes here</p>
+</div>
+
+<script>
+$(function() {
+
+    $(".btn").on("click", function() {
+      //hide all sections
+      $(".content-section").hide();
+      //show the section depending on which button was clicked
+      $("#" + $(this).attr("data-section")).show();
+    });
+  
+  });
+  </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

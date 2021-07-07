@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b8b2953b63342792ac5f1683d593b7dc") format("truetype"),
+url("./flaticon.woff?b8b2953b63342792ac5f1683d593b7dc") format("woff"),
+url("./flaticon.woff2?b8b2953b63342792ac5f1683d593b7dc") format("woff2"),
+url("./flaticon.eot?b8b2953b63342792ac5f1683d593b7dc#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b8b2953b63342792ac5f1683d593b7dc#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "visionary": "\f101",
+    "binoculars": "\f102",
+    "goal": "\f103",
+    "target": "\f104",
+    "target-1": "\f105",
+    "planet-earth": "\f106",
+    "project-management": "\f107",
+    "solar-panel": "\f108",
+    "protection": "\f109",
+    "evaluation": "\f10a",
+    "shopping-cart-1": "\f10b",
+    "server": "\f10c",
+    "sun": "\f10d",
+);
+
+.flaticon-visionary:before {
+    content: map-get($flaticon-map, "visionary");
+}
+.flaticon-binoculars:before {
+    content: map-get($flaticon-map, "binoculars");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon-map, "goal");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-target-1:before {
+    content: map-get($flaticon-map, "target-1");
+}
+.flaticon-planet-earth:before {
+    content: map-get($flaticon-map, "planet-earth");
+}
+.flaticon-project-management:before {
+    content: map-get($flaticon-map, "project-management");
+}
+.flaticon-solar-panel:before {
+    content: map-get($flaticon-map, "solar-panel");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon-map, "protection");
+}
+.flaticon-evaluation:before {
+    content: map-get($flaticon-map, "evaluation");
+}
+.flaticon-shopping-cart-1:before {
+    content: map-get($flaticon-map, "shopping-cart-1");
+}
+.flaticon-server:before {
+    content: map-get($flaticon-map, "server");
+}
+.flaticon-sun:before {
+    content: map-get($flaticon-map, "sun");
+}
