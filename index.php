@@ -61,14 +61,14 @@
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
           </a>
-      <button type="button" class="mobile-nav-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
+      <button type="button" class="mobile-nav-toggle d-xl-none collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
       <div class="collapse navbar-collapse" id="navbarNav">
       
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li class="nav-item"data-bs-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link active"  aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"  >
+          <li class="nav-item" data-bs-toggle="collapse" data-target=".navbar-collapse.show"  >
             <a class="nav-link" href="#about">About Us</a>
           </li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
@@ -110,7 +110,7 @@
             <div class="col-sm-5 themed-grid-col left_image">
             </div>
             <div class="col-sm-6 themed-grid-col right_content" >
-                <h2>Why go solar with NeezerzGreene? </h2>
+                <h2>Why go solar with NeezerGreene? </h2>
                 <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Access green and sustainable energy</p>
                     <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Guaranteed performance</p>
                     <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Enjoy substantial cost-savings on monthly energy bill</p>
