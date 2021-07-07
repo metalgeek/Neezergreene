@@ -17,7 +17,7 @@
     <!--Google fonts-->    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
-
+     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/flaticon/font/flaticon.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     <!----Main CSS file----->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    
 
 
 </head>
