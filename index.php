@@ -31,7 +31,7 @@
     <!----Main CSS file----->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
 
 
 </head>
@@ -78,7 +78,7 @@
             <a class="nav-link" href="#products" >Products</a>
           </li>
           <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link"  href="#blog">Blog</a>
+            <a class="nav-link"  href="#values">Our Values</a>
           </li>
           <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
             <a class="nav-link"  href="#luni">LUNI</a>
@@ -592,7 +592,7 @@ $(function() {
 
 </script>
 
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
