@@ -65,25 +65,25 @@
       <div class="collapse navbar-collapse" id="navbarNav">
       
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
             <a class="nav-link active"  aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"  >
+          <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  >
             <a class="nav-link" href="#about">About Us</a>
           </li>
-          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
+          <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
             <a class="nav-link"  href="#services">Services</a>
           </li>
-          <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show" >
+          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
             <a class="nav-link" href="#products" >Products</a>
           </li>
-          <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
             <a class="nav-link"  href="#blog">Blog</a>
           </li>
-          <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
             <a class="nav-link"  href="#luni">LUNI</a>
           </li>
-          <li class="nav-item main-btn"data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li class="nav-item main-btn"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
             <a class="nav-link"  href="#quote">Get a Free Quote</a>
           </li>
         </ul>
