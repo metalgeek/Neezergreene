@@ -61,7 +61,6 @@
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
           </a>
-<<<<<<< HEAD
       <button type="button" class="navbar-toggler mobile-nav-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
       <div class="collapse navbar-collapse" id="navbarNav">
       
@@ -86,32 +85,6 @@
           </li>
           <li class="nav-item main-btn">
             <a class="nav-link" href="#quote">Get a Free Quote</a>
-=======
-      <button type="button" class="navbar-toggler mobile-nav-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-      
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link active"  aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link" href="#" data-bs-target="#about">About Us</a>
-          </li>
-          <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
-            <a class="nav-link"  href="#services" data-bs-target="#services">Services</a>
-          </li>
-          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
-            <a class="nav-link" href="#products">Products</a>
-          </li>
-          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link"  href="#values">Our Values</a>
-          </li>
-          <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link"  href="#luni">LUNI</a>
-          </li>
-          <li class="nav-item main-btn"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link"  href="#quote">Get a Free Quote</a>
->>>>>>> 9144e04fb32a44d61de617f374b947bdd809d294
           </li>
         </ul>
       </div>
@@ -619,7 +592,6 @@ $(function() {
 
 </script>
 
-<<<<<<< HEAD
 
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -634,25 +606,6 @@ $(function() {
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/form.js"></script>
     <script src="assets/js/main.js"></script>
-=======
-  
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-  <!-- <script src="vendor/aos/aos.js"></script> -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/form.js"></script>
->>>>>>> 9144e04fb32a44d61de617f374b947bdd809d294
-
   <script>
     AOS.init();
   </script>
