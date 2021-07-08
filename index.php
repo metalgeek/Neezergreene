@@ -61,7 +61,7 @@
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
           </a>
-      <button type="button" class="navbar-toggler mobile-nav-toggle" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
+      <button type="button" class="navbar-toggler mobile-nav-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
       <div class="collapse navbar-collapse" id="navbarNav">
       
         <ul class="navbar-nav ms-auto">
@@ -69,10 +69,10 @@
             <a class="nav-link active"  aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
-            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#" data-bs-target="#about">About Us</a>
           </li>
           <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
-            <a class="nav-link"  href="#services">Services</a>
+            <a class="nav-link"  href="#services" data-bs-target="#services">Services</a>
           </li>
           <li class="nav-item"data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
             <a class="nav-link" href="#products">Products</a>
