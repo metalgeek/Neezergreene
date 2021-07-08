@@ -17,7 +17,7 @@
     <!--Google fonts-->    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
-     <script src="assets/vendor/jquery/jquery.min.js"></script>
+     
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/flaticon/font/flaticon.css" rel="stylesheet">
@@ -592,9 +592,9 @@ $(function() {
 
 </script>
 
-  <script src="assets/js/form.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
@@ -607,6 +607,7 @@ $(function() {
   <!-- <script src="vendor/aos/aos.js"></script> -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
 
   <script>
     AOS.init();
