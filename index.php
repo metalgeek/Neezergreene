@@ -56,7 +56,7 @@
 </style>
 
 <!--########### Navbar start ##########-->
-<nav class="navbar navbar-toggleable-xl fixed-top">
+<nav class="navbar navbar-expand-xl fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
@@ -260,8 +260,10 @@
   <div class="container-fluid bg_color">
     <div class="row d-flex align-items-center justify-content-center pt-5 mt-5">
       <span class="big_font" data-aos="fade-up" data-aos-duration="1000">PRODUCTS</span>
-      <div class="col-md-4 pb-5" data-aos="fade-up" data-aos-duration="1000">
-        product samples from flutter store
+      <div class="col-md-4 pb-5 text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h3>NeezerGreene Store</h3>
+        <img src="assets/img/27277.jpg" alt="" class="img-fluid">
+        <button type="button" class="btn btn-primary mt-2" disabled>Shop Now!!!</button>
       </div>
       <div class="col-md-4">
         
@@ -312,7 +314,7 @@
 
         <button type="button" class="apprh" id="apprh4" data-section="ts_text"><i class="flaticon flaticon-project-management"></i> Test & Start</button>
 
-        <button type="button" class="apprh" id="" data-section="as_text"><i class="flaticon flaticon-planet-earth"></i> After-Sales Support </button>
+        <button type="button" class="apprh" id="apprh5" data-section="as_text"><i class="flaticon flaticon-planet-earth"></i> After-Sales Support </button>
 
       </div>
       <div class="approach_content text-center d-flex justify-content-center">

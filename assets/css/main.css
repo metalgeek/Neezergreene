@@ -557,6 +557,21 @@ products------------------------------------------------------------------------
     color: #f7941d;
 
 }
+#products h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+#products .btn{
+    align-items: center;
+    background-color: #007D32;
+    border: none;
+    border-radius: 30px;
+}
+#products .btn:hover{
+    align-items: center;
+    background-color: #006428;
+}
 
 
 /*---------------------------------------------------------------------------------------------------------------------
@@ -588,6 +603,10 @@ Approach------------------------------------------------------------------------
     border-radius: 17.7043px;
     margin: 5px;
     border: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
 }
 
 #approach .big_font{
