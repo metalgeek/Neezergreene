@@ -33,3 +33,50 @@ $(function() {
   });
 
 });
+
+// Smooth scroll for the navigation menu and links with .scrollto classes
+$(document).on('click', '.nav-menu a, .scrollto', function(e) {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    if (target.length) {
+      e.preventDefault();
+
+      var scrollto = target.offset().top;
+
+      $('html, body').animate({
+        scrollTop: scrollto
+      }, 1500, 'easeInOutExpo');
+
+      if ($(this).parents('.nav-menu, .mobile-nav').length) {
+        $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+        $(this).closest('li').addClass('active');
+      }
+
+      if ($('body').hasClass('mobile-nav-active')) {
+        $('body').removeClass('mobile-nav-active');
+        $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+      }
+      return false;
+    }
+  }
+});
+
+  // Activate smooth scroll on page load with hash links in the url
+  $(document).ready(function() {
+    if (window.location.hash) {
+      var initial_nav = window.location.hash;
+      if ($(initial_nav).length) {
+        var scrollto = $(initial_nav).offset().top;
+        $('html, body').animate({
+          scrollTop: scrollto
+        }, 1500, 'easeInOutExpo');
+      }
+    }
+  });
+
+  const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
