@@ -193,7 +193,7 @@ body{
 
 
 /* Mobile Navigation */
-.mobile-nav-toggle {
+.navbar-toggler {
     position: relative;
     border: 0;
     background: none;
@@ -205,12 +205,12 @@ body{
     text-align: right;
   }
   
-  .mobile-nav-toggle i {
+  .navbar-toggler i {
     color: #f7941d;
   
   }
   
-  .mobile-nav-active {
+  .navbar-toggler {
     overflow: hidden;
   }
 

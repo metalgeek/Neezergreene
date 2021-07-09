@@ -65,10 +65,10 @@
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
           </a>
-      <button type="button" class="mobile-nav-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
-      <div class="navbar-collapse" id="navbarNav">
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
       
-        <ul class="navbar-nav ms-auto" >
+        <ul class="navbar-nav me-auto" >
           <li class="nav-item" >
             <a class="nav-link active" href="#" aria-current="page">Home</a>
           </li>
