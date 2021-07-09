@@ -143,7 +143,7 @@
         <div class="modal-body text-center">
             <span class="iconify" data-icon="noto:light-bulb" data-inline="false"></span>
             <h4>Subscribe to our newsletter</h4> 
-            <p>Signup for our weekly newsletter to get the latest news, updates and amazong offers delivered direcly in your inbox.
+            <p>Signup for our newsletter to get the latest news, updates and amazong offers delivered directly in your inbox.
             </p>
           <form action="subscribe.php">
             <div class="input-group">
