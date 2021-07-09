@@ -30,8 +30,8 @@
 
     <!----Main CSS file----->
     <link href="assets/css/main.css" rel="stylesheet">
-
     <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
 </head>
@@ -54,14 +54,18 @@
 
 
 </style>
+<!----------email subscribtion modal------------>
 
+
+
+<!----------email subscribtion modal------------>
 <!--########### Navbar start ##########-->
 <nav class="navbar navbar-expand-xl fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
           </a>
-      <button type="button" class="navbar-toggler mobile-nav-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
+      <button type="button" class="mobile-nav-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
       <div class="collapse navbar-collapse" id="navbarNav">
       
         <ul class="navbar-nav ms-auto" >
@@ -80,8 +84,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#values">Our Values</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#luni">LUNI</a>
+          <li class="nav-item" disable>
+            <a class="nav-link" href="#">LUNI</a>
           </li>
           <li class="nav-item main-btn">
             <a class="nav-link" href="#quote">Get a Free Quote</a>
@@ -91,6 +95,7 @@
     </div>
 </nav>
 <!--########### Navbar End ##########-->
+
 <!--########### Hero section start ##########-->
 
 <div class="hero container-fluid pt-5">
@@ -112,7 +117,7 @@
             </div>
             <div class="col-sm-6 themed-grid-col right_content" >
                 <h2>Why go solar with NeezerGreene? </h2>
-                <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Access green and sustainable energy</p>
+                    <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Access green and sustainable energy</p>
                     <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Guaranteed performance</p>
                     <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Enjoy substantial cost-savings on monthly energy bill</p>
                     <p><span class="iconify" data-inline="false" data-icon="bi:check-all" style="font-size: 24px; color: #f7941d;"></span>Eliminate full dependence on National grid</p>
@@ -121,6 +126,41 @@
       </div>
     </div>
 </section>
+<br>
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">
+          <span class="iconify" data-icon="eva:close-fill" data-inline="false"></span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+            <span class="iconify" data-icon="noto:light-bulb" data-inline="false"></span>
+            <h4>Subscribe to our newsletter</h4> 
+            <p>Signup for our weekly newsletter to get the latest news, updates and amazong offers delivered direcly in your inbox.
+            </p>
+          <form action="subscribe.php">
+            <div class="input-group">
+              <input type="email" id="emailinput" class="form-control" placeholder="Enter your email" required>
+              <span class="input-group-btn">
+              <input type="submit" class="btn btn-primary" value="Subscribe">
+              </span>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+            <p><span class="iconify" data-icon="fa-solid:glass-cheers" data-inline="false" style="color:darkred;"></span>cheers to greene renewable energy!!!</p>
+        </div>
+    </div>
+  </div>
+</div>
+<!-------------------------modal end---------------------------------->
 <section id="about">
   <div class="container text-center" data-aos="fade-up">
     <div class="row justify-content-around img-fluid">
@@ -168,7 +208,7 @@
   </div>
 </section>
 <br>
-<section id="values">
+<section id="values" data-bs-offset="1000">
   <div class="container-fluid">
     <div class="row align-items-center d-flex justify-content-center">
       <span class="subtitle_hd_dash" data-aos="fade-right">
@@ -343,7 +383,7 @@
   </div>
 </section>
 <br>
-<section id="agent" data-aos="zoom-in" data-aos-duration="1000">
+<section id="agent" data-aos="zoom-in" data-aos-duration="1000" data-bs-offset="10">
   <div class="container">
     <div class="row d-flex justify-content-end align-items-center mt-5">
        <!-- <img src="img/Agent_bg.svg" alt="" class=""> -->
@@ -353,7 +393,7 @@
         <p>Are you highly motivated?  Would you like to take on an exciting career path learning and pushing the new trend in energy systems of the future? Would you like to work remotely and earn commissions on successful deals?</p>
         <h3>Apply Here</h3>
 
-        <form action="forms/handler.php" method="POST" class="form-group pt-3">
+        <form action="agent.php" method="POST" class="form-group pt-3">
           
              <label for="fname" class="form-label">First Name</label>
              <input type="text"name="fname"class="form-control" id="fname" placeholder="John" requried>
@@ -371,11 +411,14 @@
              <input type="text" name="address" class="form-control" id="address" placeholder="No 21, ikeja Lagos Nigeria">
                 <br>
              <button type="submit" class="btn">Submit</button>
-         
+
+             <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"><?php  $result  ?></div>
+                <div class="sent-message"><?php  $result  ?></div>
+              </div>
        </form>
-        <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
-        <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
-      </div>
+        </div>
     </div>
   </div>
 </section>
@@ -503,6 +546,8 @@
 
 </section>
 <br>
+
+<footer>
 <section id="footer">
   <div class="container">
     <div class="row d-flex justify-content-center align-items-start text-center">
@@ -572,13 +617,14 @@
     </div>
   </div>
 </section>
-
+</footer>
+<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+<div id="preloader"></div>
 
 
 <!-----------------Hero section start------------>
 
   <!-- Vendor JS Files -->
-
 
 <script>
 $(function() {
@@ -591,9 +637,7 @@ $(function() {
   });
 
 });
-
 </script>
-
 
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -606,10 +650,13 @@ $(function() {
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="assets/js/form.js"></script>
     <script src="assets/js/main.js"></script>
+
   <script>
     AOS.init();
   </script>
+
 </body>
 </html>
