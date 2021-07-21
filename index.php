@@ -54,23 +54,21 @@
 
 
 </style>
-<!----------email subscribtion modal------------>
-
-
-
-<!----------email subscribtion modal------------>
-<!--########### Navbar start ##########-->
-<nav class="navbar navbar-expand-xl fixed-top">
-    <div class="container-fluid">
+<!---------------- Navbar start ---------------------->
+<div class="container">
+<nav class="navbar navbar-expand-xl fixed-top" id="navbar">
         <a class="navbar-brand" href="#">
             <img src="assets/img/logo.svg" alt="logo">
           </a>
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bx bx-dots-vertical-rounded"></span></i></button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
       
-        <ul class="navbar-nav me-auto" >
-          <li class="nav-item" >
-            <a class="nav-link active" href="#" aria-current="page">Home</a>
+        <ul class="navbar-nav ms-auto" >
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About Us</a>
@@ -85,18 +83,19 @@
             <a class="nav-link" href="#values">Our Values</a>
           </li>
           <li class="nav-item" disable>
-            <a class="nav-link" href="#">LUNI</a>
+            <a class="nav-link disabled" href="#">LUNI</a>
           </li>
-          <li class="nav-item main-btn">
+          <li class="main-btn">
             <a class="nav-link" href="#quote">Get a Free Quote</a>
           </li>
         </ul>
       </div>
-    </div>
+    
 </nav>
-<!--########### Navbar End ##########-->
+</div>
+<!-------------------------- Navbar End ----------------->
 
-<!--########### Hero section start ##########-->
+<!---------------------- Hero section start------------------------->
 
 <div class="hero container-fluid pt-5">
     <div class="row d-flex align-items-center pt-5">
@@ -104,7 +103,7 @@
             <h1>Driving the Future of Sustainable Energy</h1>
             <p>Power up your <span class="typed" data-typed-items=" Home, Office, Business"></span>
             </p>
-            <button id="coa">Go Solar Now</button>
+            <a href="#quote"><button id="coa">Go Solar Now</button></a>
             <span class="big_font">SOLAR</span>
         </div>        
     </div>
@@ -127,9 +126,6 @@
     </div>
 </section>
 <br>
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button> -->
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -385,7 +381,7 @@
 <br>
 <section id="agent" data-aos="zoom-in" data-aos-duration="1000" data-bs-offset="10">
   <div class="container">
-    <div class="row d-flex justify-content-end align-items-center mt-5">
+    <div class="row d-flex justify-content-end align-items-center mt-5 ps-5">
        <!-- <img src="img/Agent_bg.svg" alt="" class=""> -->
        <div class="col-md-5 mb-3">
 
@@ -393,7 +389,7 @@
         <p>Are you highly motivated?  Would you like to take on an exciting career path learning and pushing the new trend in energy systems of the future? Would you like to work remotely and earn commissions on successful deals?</p>
         <h3>Apply Here</h3>
 
-        <form action="agent.php" method="POST" class="form-group pt-3">
+        <form action="agent.php" method="POST" class="form-group ps-3">
           
              <label for="fname" class="form-label">First Name</label>
              <input type="text"name="fname"class="form-control" id="fname" placeholder="John" requried>
@@ -566,10 +562,21 @@
         <header>CONTACT</header>
         <ul>
 
-        <li><i class="bx bx-phone"><a href="tel:08149302144" class="phone" target="_blank"></i> Call Us: 09093454342</a></li>
-        <li><i class="bx bxl-whatsapp"><a href="https://wa.me/2348149302144" class="whatsapp" target="_blank"></i> Send a whatsapp message: 8383838833</a></li>
-        <li><i class="bx bxl-google"><a href="mailto:info@neezergreene.com" class="email" target="_blank"></i> info@neezergreene.com </a></li>
-        <li><i class="bx bx-current-location"><a href="" class="email" target="_blank"></i> Emcel Courts, Lekki Conservation Road, Lagos, Nigeria.</a></li>
+        <li>
+          <i class="bx bx-phone"></i>
+          <a href="tel:08149302144" target="_blank"> Call Us: 09093454342</a>
+        </li>
+        <li>
+          <i class="bx bxl-whatsapp"></i>
+          <a href="https://wa.me/2348149302144" target="_blank">08149302144</a>
+        </li>
+        <li>
+          <i class="bx bxl-google"></i>
+          <a href="mailto:info@neezergreene.com" class="email" target="_blank">
+          info@neezergreene.com</a>
+        </li>
+        <li>
+          <i class="bx bx-current-location"></i><a href="">Emcel Courts, Lekki Conservation Road, Lagos, Nigeria.</a></li>
       
       </ul>
       </div>
@@ -578,12 +585,11 @@
         <header>SITE MAP</header>
       <div class="col-md-6" style="float: left;">
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Our Services</a></li>
-        <li><a href="">Our Products</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Become An Agent</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#agent">Become An Agent</a></li>
       </ul>
       </div>
       <div class="col-md-6" style="float: left; text-align: left;">
