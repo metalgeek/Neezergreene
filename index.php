@@ -61,7 +61,7 @@
             <img src="assets/img/logo.svg" alt="logo">
           </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class='bx bx-menu-alt-right' ></i>>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -85,7 +85,7 @@
           <li class="nav-item" disable>
             <a class="nav-link disabled" href="#">LUNI</a>
           </li>
-          <li class="main-btn">
+          <li class="nav-item main-btn">
             <a class="nav-link" href="#quote">Get a Free Quote</a>
           </li>
         </ul>
@@ -336,7 +336,7 @@
         </span>
         <h2 data-aos="fade-up" data-aos-duration="1000"><strong>How we make things work</strong></h2>
         <span class="big_font"data-aos="fade-up" data-aos-duration="1000">APPROACH</span>
-        <h4>We place great emphasis on excellent quality and craftsmanship. We also have a dedicated team of personnel that can be deployed to implement projects anywhere in Nigeria.
+        <h4 data-aos="fade-up" data-aos-duration="1000">We place great emphasis on excellent quality and craftsmanship. We also have a dedicated team of personnel that can be deployed to implement projects anywhere in Nigeria.
         Hence, our approach involves processes that ensure maximum delivery and satisfaction
         </h4>
   
