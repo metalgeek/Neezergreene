@@ -885,7 +885,11 @@ Agent---------------------------------------------------------------------------
     padding-top: 100px;
     color: #FFFFFF;
 }
-
+@media (max-width:987px) {
+    #agent .row{
+        padding-left: 0px !important;
+    }
+}
 #agent h3{
      color: #f7941d;
 }

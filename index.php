@@ -61,7 +61,7 @@
             <img src="assets/img/logo.svg" alt="logo">
           </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class='bx bx-menu-alt-right' ></i>>
+      <i class='bx bx-menu-alt-right' ></i>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
